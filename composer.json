@@ -1,0 +1,15 @@
+{
+    "name": "martynas/mokslas",
+    "description": "Mano mokslo projektas",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "2.8.0",
+        "php": ">=8.0.",
+        "larapack/dd": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Projektas\\": "src/"
+        }
+    }
+}
